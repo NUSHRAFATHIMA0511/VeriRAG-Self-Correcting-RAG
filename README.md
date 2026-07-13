@@ -86,3 +86,74 @@ Monitoring Dashboard
 ---
 
 ## Folder Structure
+VeriRAG/
+│
+├── docs/
+│ ├── PRD.pdf
+│ ├── Architecture.png
+│ └── SolutionOverview.md
+│
+├── backend/
+│ ├── api.py
+│ ├── retriever.py
+│ ├── validator.py
+│ ├── self_correct.py
+│ ├── generator.py
+│ └── monitor.py
+│
+├── frontend/
+│
+├── data/
+│
+├── evaluation/
+│
+├── tests/
+│
+├── requirements.txt
+│
+└── README.md
+
+
+
+---
+
+## Workflow
+
+1. Receive user query
+2. Generate embeddings
+3. Retrieve documents from Qdrant
+4. Validate retrieved context
+5. Detect conflicts
+6. Rewrite query if needed
+7. Re-retrieve documents
+8. Generate grounded response
+9. Monitor performance
+10. Display analytics
+
+---
+
+## KPIs
+
+- Hallucination Rate
+- Retrieval Accuracy
+- Confidence Score
+- Response Time
+- User Satisfaction
+- Re-query Count
+
+---
+
+## Future Work
+
+- Multimodal RAG
+- Voice Support
+- Fine-tuned Query Rewriter
+- Continuous Learning
+- Human-in-the-loop Validation
+
+---
+
+## Contributors
+
+Nushra Fathima
+
